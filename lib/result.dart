@@ -9,7 +9,7 @@ class Result extends StatelessWidget {
   String get resultPhrase {
     var resultText = "You did it";
     if (result <= 8) {
-      result Text = "You are awesome and innocent";
+      String Text = "You are awesome and innocent";
     } else if (result <= 12) {
       resultText = "Pretty Liekable";
     } else {
