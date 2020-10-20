@@ -49,6 +49,7 @@ class _MyAppState extends State<MyApp> {
 
     setState(() {
       _questionIndex = _questionIndex + 1;
+      Question.time = 5;
     });
     print(_questionIndex);
 
